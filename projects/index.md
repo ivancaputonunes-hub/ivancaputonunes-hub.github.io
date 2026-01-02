@@ -1,4 +1,3 @@
-Create projects page
 ---
 layout: page
 title: Projetos
@@ -14,4 +13,4 @@ Projetos focados em **Pricing, Analytics e Inteligência de Mercado**, com abord
 ### Motor de Precificação Dinâmica para Varejo
 Modelo analítico para recomendação de preços e simulação de cenários considerando custo, margem, concorrência e elasticidade.
 
-➡️ [Ver projeto](/projects/motor-precificacao/).
+➡️ [Ver projeto](/projects/motor-precificacao/)
