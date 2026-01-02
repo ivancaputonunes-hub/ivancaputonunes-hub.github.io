@@ -1,9 +1,9 @@
-Add dynamic pricing project
 ---
 layout: page
 title: Motor de Precificação Dinâmica
 permalink: /projects/motor-precificacao/
 ---
+
 
 # Motor de Precificação Dinâmica para Varejo
 
