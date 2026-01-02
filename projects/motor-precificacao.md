@@ -4,67 +4,97 @@ title: Motor de Precificação Dinâmica
 permalink: /projects/motor-precificacao/
 ---
 
+# Motor de Precificação Dinâmica para Varejo
 
-# Motor de Precificação Dinâmica para Varejo.
-
-## Visão Técnica
-Projeto de **pricing analytics** voltado à recomendação de preços e simulação de cenários com foco em maximização de margem e competitividade.
+Projeto de **Pricing Analytics** focado na recomendação de preços e simulação de cenários comerciais, considerando custo, margem, concorrência e elasticidade da demanda.
 
 ---
 
-## Problema de Negócio
-Decisões de preço frequentemente são:
-- manuais
-- reativas à concorrência
-- tomadas sem simulação de impacto financeiro
+## Contexto do Problema
 
-Isso gera perda de margem ou perda de competitividade.
+Em muitos varejos, decisões de preço ainda são:
+
+- manuais e pouco escaláveis  
+- reativas à concorrência  
+- desconectadas do impacto financeiro real  
+
+Isso gera **perda de margem**, **desalinhamento estratégico** e **decisões inconsistentes entre categorias ou lojas**.
 
 ---
 
-## Objetivo
-Construir um modelo capaz de:
-- recomendar preços por SKU (ou SKU × cluster)
-- simular cenários de preço × volume × margem
-- apoiar decisões comerciais baseadas em dados
+## Objetivo do Projeto
+
+Desenvolver um **motor analítico de precificação** capaz de:
+
+- recomendar preços por SKU ou SKU × cluster  
+- simular cenários de **preço × volume × margem**  
+- apoiar decisões comerciais com base em dados  
+- respeitar regras de negócio e restrições operacionais  
+
+---
+
+## Abordagem Analítica
+
+O projeto combina **regras de negócio** com **modelagem quantitativa**, estruturado em quatro pilares:
+
+### 1. Estruturação de Dados
+- Base histórica de vendas  
+- Custos e CMV  
+- Preços atuais e históricos  
+- Preços da concorrência  
+
+### 2. Modelagem de Variáveis
+- Margem atual e margem alvo  
+- Volume histórico  
+- Elasticidade-preço (estimada ou parametrizada)  
+- Guardrails comerciais  
+
+### 3. Simulação de Cenários
+- Ajustes incrementais de preço  
+- Impacto esperado em volume  
+- Impacto financeiro (receita e margem)  
+
+### 4. Avaliação de Resultado
+- Comparação entre cenário atual vs. recomendado  
+- Identificação de riscos e oportunidades  
 
 ---
 
 ## Variáveis Consideradas
-- custo unitário / CMV
-- preço atual
-- margem alvo
-- preços da concorrência
-- volume histórico
-- elasticidade-preço (estimada ou assumida)
-- restrições comerciais
 
----
-
-## Metodologia
-1. Estruturação da base analítica (SQL)
-2. Definição de regras de negócio (guardrails)
-3. Modelagem de cenários de preço
-4. Avaliação de impacto financeiro
-5. Visualização e interpretação
+- Custo unitário / CMV  
+- Preço atual  
+- Margem alvo  
+- Preços da concorrência  
+- Volume histórico  
+- Elasticidade-preço  
+- Restrições comerciais (ex: teto de preço, mínimo de margem)  
 
 ---
 
 ## Entregáveis
-- dataset analítico
-- motor de recomendação de preço
-- simulador de cenários (what-if)
-- dashboard de apoio à decisão
+
+- Dataset analítico consolidado  
+- Motor de recomendação de preços  
+- Simulador de cenários (what-if)  
+- Visualizações para apoio à decisão  
 
 ---
 
-## Stack
-- SQL
-- Python (pandas, numpy)
-- Excel / Google Sheets
-- Power BI ou Looker Studio
+## Stack Tecnológica
+
+- **SQL** — preparação e estruturação de dados  
+- **Python** — modelagem e simulação (pandas, numpy)  
+- **Ferramentas de BI** — visualização de cenários e impactos  
 
 ---
 
-## Autor
-Ivan Caputo — Pricing & Data Analytics
+## Próximos Passos
+
+- Evolução para modelo de elasticidade estatística  
+- Integração com dados de sell-out e estoque  
+- Automatização da geração de recomendações  
+
+---
+
+⬅️ [Voltar para a lista de projetos](/projects/)
