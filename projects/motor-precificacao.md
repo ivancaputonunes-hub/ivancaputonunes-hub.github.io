@@ -5,7 +5,7 @@ permalink: /projects/motor-precificacao/
 ---
 
 
-# Motor de Precificação Dinâmica para Varejo
+# Motor de Precificação Dinâmica para Varejo.
 
 ## Visão Técnica
 Projeto de **pricing analytics** voltado à recomendação de preços e simulação de cenários com foco em maximização de margem e competitividade.
