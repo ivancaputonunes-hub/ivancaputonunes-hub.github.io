@@ -8,19 +8,28 @@ permalink: /projects/
 
 Projetos focados em **Pricing, Analytics e Inteligência de Mercado**, com abordagem técnica e foco em tomada de decisão baseada em dados.
 
-## Projetos disponíveis
+---
 
-### Motor de Precificação Dinâmica para Varejo
-Modelo analítico para recomendação de preços e simulação de cenários considerando custo, margem, concorrência e elasticidade.
+## 📌 Projetos em destaque
 
-➡️ [Ver projeto](/projects/motor-precificacao/)
+### 1. Motor de Precificação Dinâmica para Varejo
 
-### Monitor de Competitividade e Price Gap
-Análise comparativa de preços para identificação de gaps, dispersões e riscos competitivos frente à concorrência.
+Modelo analítico para **recomendação de preços** e **simulação de cenários** considerando custo, margem, concorrência e elasticidade-preço.
 
-➡️ [Ver projeto](/projects/monitor-competitividade/)
+➡️ **[Ver projeto](/projects/motor-precificacao/)**
 
-### Simulador de Estratégia Comercial (Preço × Volume × Margem)
-Simulação de cenários comerciais para avaliação de trade-offs entre preço, volume, receita e margem.
+---
 
-➡️ [Ver projeto](/projects/simulador-estrategia-comercial/)
+### 2. Monitor de Competitividade e Price Gap
+
+Sistema de análise comparativa de preços para **identificação de gaps competitivos**, dispersões e riscos frente à concorrência.
+
+➡️ **[Ver projeto](/projects/monitor-competitividade/)**
+
+---
+
+### 3. Simulador de Estratégia Comercial (Preço × Volume × Margem)
+
+Ferramenta de simulação para avaliação de **trade-offs entre preço, volume, receita e margem**, apoiando decisões comerciais estratégicas.
+
+➡️ **[Ver projeto](/projects/simulador-estrategia-comercial/)**
