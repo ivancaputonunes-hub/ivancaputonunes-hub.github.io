@@ -1,4 +1,3 @@
-Add competitiveness and price gap project
 ---
 layout: page
 title: Monitor de Competitividade e Price Gap
@@ -7,78 +6,95 @@ permalink: /projects/monitor-competitividade/
 
 # Monitor de Competitividade e Price Gap
 
-## Visão Técnica
-Projeto analítico voltado ao **monitoramento contínuo de competitividade de preços**, com foco na identificação de **price gaps**, dispersões e oportunidades de ajuste estratégico frente à concorrência.
+Projeto de **Inteligência de Mercado e Pricing Analytics** voltado ao monitoramento contínuo de preços da concorrência, identificação de gaps competitivos e apoio à tomada de decisão comercial.
 
 ---
 
-## Problema de Negócio
-Empresas frequentemente:
-- não sabem se estão caras ou baratas
-- analisam concorrência de forma pontual
-- não priorizam produtos críticos
+## Contexto do Problema
 
-Isso gera perda de vendas ou erosão de margem.
+Em ambientes competitivos, a falta de visibilidade estruturada sobre preços da concorrência gera:
 
----
+- decisões reativas e pouco consistentes  
+- dificuldade em priorizar ajustes de preço  
+- risco de perda de volume ou erosão de margem  
 
-## Objetivo
-Construir uma solução que permita:
-- comparar preços próprios vs concorrentes
-- identificar gaps de preço relevantes
-- classificar risco competitivo por produto
-- apoiar decisões de ajuste de preço
+Além disso, análises manuais não escalam e rapidamente ficam obsoletas.
 
 ---
 
-## Escopo Analítico
-- comparação SKU a SKU
-- análise de preço mínimo, médio e máximo do mercado
-- cálculo de price gap absoluto e percentual
-- priorização por impacto potencial
+## Objetivo do Projeto
+
+Construir um **monitor analítico de competitividade** capaz de:
+
+- comparar preços próprios vs. concorrência  
+- identificar **price gaps**, dispersões e outliers  
+- classificar risco competitivo por produto ou cluster  
+- apoiar decisões de ajuste de preço com base em dados  
 
 ---
 
-## Métricas-Chave
-- Price Gap (% e R$)
-- Índice de Competitividade
-- Dispersão de preços
-- Ranking de risco competitivo
+## Abordagem Analítica
+
+O projeto é estruturado em quatro etapas principais:
+
+### 1. Consolidação de Dados
+- Preços próprios por SKU  
+- Preços da concorrência (sell-out / pesquisa de mercado)  
+- Identificação de concorrentes relevantes  
+- Estrutura de produto (categoria, marca, cluster)  
+
+### 2. Cálculo de Métricas-Chave
+- Price gap absoluto e percentual  
+- Índice de competitividade  
+- Dispersão de preços entre concorrentes  
+- Ranking de preço (mais caro / mais barato)  
+
+### 3. Classificação de Risco
+- Produtos acima do mercado  
+- Produtos abaixo do mercado  
+- Produtos alinhados  
+- Identificação de casos críticos  
+
+### 4. Visualização e Interpretação
+- Dashboards comparativos  
+- Alertas de risco competitivo  
+- Apoio à priorização comercial  
 
 ---
 
-## Metodologia
-1. Estruturação da base de preços próprios e concorrência
-2. Normalização e matching de SKUs
-3. Cálculo de métricas de competitividade
-4. Classificação de risco (baixo / médio / alto)
-5. Visualização executiva dos resultados
+## Principais Métricas
+
+- Preço próprio  
+- Preço médio da concorrência  
+- Menor e maior preço do mercado  
+- Gap percentual vs. mercado  
+- Índice de competitividade por SKU ou cluster  
 
 ---
 
 ## Entregáveis
-- base analítica de preços comparativos
-- cálculo automatizado de price gap
-- ranking de produtos críticos
-- dashboard de competitividade
+
+- Base analítica consolidada (SKU × concorrente)  
+- Monitor de price gap e dispersão  
+- Classificação automática de risco competitivo  
+- Dashboards para acompanhamento contínuo  
 
 ---
 
-## Stack
-- SQL
-- Python (pandas)
-- Excel / Google Sheets
-- Power BI ou Looker Studio
+## Stack Tecnológica
+
+- **SQL** — estruturação e consolidação dos dados  
+- **Python** — cálculos e regras analíticas  
+- **Ferramentas de BI** — visualização e monitoramento  
 
 ---
 
-## Aplicações Práticas
-- ajustes táticos de preço
-- definição de produtos KVIs
-- apoio à estratégia comercial
-- acompanhamento contínuo de mercado
+## Próximos Passos
+
+- Inclusão de histórico temporal para análise de tendência  
+- Integração com elasticidade e volume  
+- Gatilhos automáticos para revisão de preço  
 
 ---
 
-## Autor
-Ivan Caputo — Pricing & Data Analytics
+⬅️ [Voltar para a lista de projetos](/projects/)
