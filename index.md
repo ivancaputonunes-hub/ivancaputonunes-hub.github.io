@@ -1,69 +1,73 @@
-ivancaputonunes-hub.github.io/
-│
-├── index.md                ← HOME (---
+---
 layout: page
 title: Ivan Caputo — Pricing & Analytics
+permalink: /
 ---
 
 # Ivan Caputo
 
-**Especialista em Pricing, Analytics e Inteligência de Mercado**  
-Foco em decisões comerciais orientadas por dados, simulação de cenários e otimização de margem.
+**Pricing · Analytics · Inteligência de Mercado**
+
+Especialista em decisões comerciais orientadas por dados, com foco em **precificação**, **simulação de cenários** e **otimização de margem** no varejo.
 
 ---
 
 ## Sobre
 
-Atuação em projetos de **precificação**, **estratégia comercial** e **análise competitiva**, com experiência em:
+Atuação em projetos de **Pricing Analytics** e **Inteligência de Mercado**, transformando dados em decisões práticas para times comerciais e executivos.
 
-- Modelagem de preços e margem  
-- Simulação de cenários comerciais  
-- Análise de concorrência e price gap  
-- Apoio à tomada de decisão executiva  
+Experiência em:
 
-Este portfólio reúne projetos práticos que representam problemas reais de negócio.
+- Modelagem de preços e margens  
+- Simulação de cenários comerciais (what-if)  
+- Análise competitiva e price gap  
+- Apoio analítico à tomada de decisão  
+
+Este portfólio reúne **projetos técnicos**, estruturados como problemas reais de negócio.
 
 ---
 
-## Projetos em Destaque
+## Projetos
 
 ### 🔹 Motor de Precificação Dinâmica para Varejo
-Modelo analítico para recomendação de preços considerando custo, margem, concorrência e elasticidade.
+Motor analítico para **recomendação de preços** considerando custo/CMV, margem, concorrência e elasticidade da demanda.
 
-➡️ [Ver projeto](/projects/motor-precificacao/)
+➡️ [Acessar projeto](/projects/motor-precificacao/)
 
 ---
 
 ### 🔹 Monitor de Competitividade e Price Gap
-Sistema de análise comparativa de preços para identificar gaps competitivos, dispersões e riscos de mercado.
+Sistema de **monitoramento competitivo** para identificação de gaps de preço, dispersões e riscos frente à concorrência.
 
-➡️ [Ver projeto](/projects/monitor-competitividade/)
+➡️ [Acessar projeto](/projects/monitor-competitividade/)
 
 ---
 
 ### 🔹 Simulador de Estratégia Comercial  
 **Preço × Volume × Margem**
 
-Ferramenta de simulação para avaliação de trade-offs entre preço, volume, receita e margem.
+Ferramenta de **simulação de cenários comerciais** para avaliação de trade-offs entre preço, volume, receita e margem.
 
-➡️ [Ver projeto](/projects/simulador-estrategia-comercial/)
+➡️ [Acessar projeto](/projects/simulador-estrategia-comercial/)
+
+---
+
+## Metodologia de Trabalho
+
+1. Entendimento do problema de negócio  
+2. Estruturação da base analítica (SQL / dados)  
+3. Definição de regras e hipóteses  
+4. Modelagem e simulação de cenários  
+5. Avaliação de impacto financeiro  
+6. Entrega clara para tomada de decisão  
 
 ---
 
 ## Contato
 
 - GitHub: https://github.com/ivancaputonunes-hub  
-- LinkedIn: *(adicione aqui depois, se quiser)*
+- LinkedIn: *(adicione quando quiser)*  
 
 ---
 
-*Este site é atualizado continuamente com novos projetos e evoluções analíticas.*)
-├── README.md               ← opcional
-│
-├── projects/
-│   ├── index.md            ← lista de projetos
-│   ├── motor-precificacao.md
-│   ├── monitor-competitividade.md
-│   └── simulador-estrategia-comercial.md
-│
-└── yml/                    ← configs (pode ignorar por enquanto)
+*Portfólio em evolução contínua.*
