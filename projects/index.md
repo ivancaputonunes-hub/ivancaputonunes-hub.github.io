@@ -19,3 +19,8 @@ Modelo analítico para recomendação de preços e simulação de cenários cons
 Análise comparativa de preços para identificação de gaps, dispersões e riscos competitivos frente à concorrência.
 
 ➡️ [Ver projeto](/projects/monitor-competitividade/)
+
+### Simulador de Estratégia Comercial (Preço × Volume × Margem)
+Simulação de cenários comerciais para avaliação de trade-offs entre preço, volume, receita e margem.
+
+➡️ [Ver projeto](/projects/simulador-estrategia-comercial/)
