@@ -1,4 +1,3 @@
-Add commercial strategy simulator project
 ---
 layout: page
 title: Simulador de Estratégia Comercial
@@ -8,87 +7,109 @@ permalink: /projects/simulador-estrategia-comercial/
 # Simulador de Estratégia Comercial  
 Preço × Volume × Margem
 
-## Visão Técnica
-Projeto analítico focado na **simulação de decisões comerciais**, permitindo avaliar o impacto combinado de **preço, volume e margem** sobre os principais indicadores financeiros do negócio.
-
-O simulador apoia decisões estratégicas antes da execução, reduzindo risco e aumentando previsibilidade.
+Projeto de **Analytics aplicado à estratégia comercial**, focado na simulação de cenários para avaliação de trade-offs entre preço, volume, receita e margem antes da tomada de decisão.
 
 ---
 
-## Problema de Negócio
-Decisões comerciais costumam falhar porque:
-- analisam preço isoladamente
-- ignoram impacto em volume
-- não avaliam margem total
-- carecem de simulações prévias
+## Contexto do Problema
 
-Isso leva a decisões intuitivas e pouco previsíveis.
+Decisões comerciais frequentemente falham porque:
 
----
+- analisam **preço de forma isolada**  
+- ignoram impacto em volume  
+- não avaliam margem total  
+- não simulam cenários antes da execução  
 
-## Objetivo
-Construir um simulador que permita:
-- testar cenários de ajuste de preço
-- estimar impacto em volume
-- calcular efeitos em receita e margem
-- comparar estratégias alternativas
+O resultado são decisões intuitivas, com alto risco financeiro e baixa previsibilidade de resultado.
 
 ---
 
-## Variáveis do Modelo
-- preço atual
-- variação de preço (%)
-- volume base
-- elasticidade da demanda
-- custo unitário
-- margem unitária
-- margem total
-- receita total
+## Objetivo do Projeto
+
+Construir um **simulador analítico** capaz de:
+
+- testar cenários de ajuste de preço  
+- estimar impacto em volume via elasticidade  
+- calcular efeitos em receita e margem  
+- comparar estratégias comerciais alternativas  
+- apoiar decisões baseadas em dados  
 
 ---
 
 ## Abordagem Analítica
-1. Definição do cenário base (baseline)
-2. Aplicação de variações de preço
-3. Estimativa de impacto em volume via elasticidade
-4. Recalculo de receita e margem
-5. Comparação entre cenários
-6. Identificação do melhor trade-off econômico
+
+O simulador segue uma lógica estruturada de análise econômica:
+
+### 1. Definição do Cenário Base
+- Preço atual  
+- Volume histórico  
+- Receita e margem atuais  
+
+### 2. Simulação de Variações de Preço
+- Aumentos ou reduções percentuais  
+- Restrições comerciais (guardrails)  
+
+### 3. Estimativa de Impacto em Volume
+- Aplicação de elasticidade-preço  
+- Ajuste do volume projetado  
+
+### 4. Recalculo Financeiro
+- Receita total projetada  
+- Margem unitária  
+- Margem total  
+
+### 5. Comparação de Cenários
+- Cenário atual vs. cenários simulados  
+- Identificação do melhor trade-off econômico  
+
+---
+
+## Variáveis do Modelo
+
+- Preço atual  
+- Variação de preço (%)  
+- Volume base  
+- Elasticidade da demanda  
+- Custo unitário  
+- Margem unitária  
+- Receita total  
+- Margem total  
 
 ---
 
 ## Métricas Avaliadas
-- Receita total
-- Margem unitária
-- Margem total
-- Variação percentual vs baseline
-- Sensibilidade preço-volume
+
+- Receita total  
+- Margem unitária  
+- Margem total  
+- Variação percentual vs. cenário base  
+- Sensibilidade a preço  
 
 ---
 
 ## Entregáveis
-- simulador de cenários (what-if)
-- base de cálculo estruturada
-- comparação visual entre estratégias
-- dashboard de apoio à decisão
+
+- Simulador de cenários comerciais (what-if)  
+- Base analítica de apoio  
+- Comparativo financeiro entre estratégias  
+- Visualizações para tomada de decisão  
 
 ---
 
-## Stack
-- Excel / Google Sheets (modelagem e simulação)
-- Python (pandas) para cenários avançados
-- SQL para estruturação da base
-- Power BI ou Looker Studio para visualização
+## Stack Tecnológica
+
+- **SQL** — estruturação de dados base  
+- **Python** — simulação e cálculos analíticos  
+- **Ferramentas de BI** — visualização de cenários  
 
 ---
 
-## Aplicações Práticas
-- definição de estratégias de preço
-- negociações comerciais
-- planejamento de campanhas
-- avaliação de risco e retorno
+## Próximos Passos
+
+- Integração com motor de precificação  
+- Simulações por cluster, canal ou região  
+- Automatização de cenários recorrentes  
 
 ---
 
-## Autor
-Ivan Caputo — Pricing, Dados e Estratégia Comercial
+⬅️ [Voltar para a lista de projetos](/projects/)
