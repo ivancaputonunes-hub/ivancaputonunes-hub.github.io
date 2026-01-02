@@ -14,3 +14,8 @@ Projetos focados em **Pricing, Analytics e Inteligência de Mercado**, com abord
 Modelo analítico para recomendação de preços e simulação de cenários considerando custo, margem, concorrência e elasticidade.
 
 ➡️ [Ver projeto](/projects/motor-precificacao/)
+
+### Monitor de Competitividade e Price Gap
+Análise comparativa de preços para identificação de gaps, dispersões e riscos competitivos frente à concorrência.
+
+➡️ [Ver projeto](/projects/monitor-competitividade/)
