@@ -18,8 +18,13 @@ Portfólio de projetos em **Pricing, Analytics e Inteligência de Mercado**, com
 **Pricing Analytics · Simulação de Cenários · Margem**
 
 Modelo analítico para recomendação de preços por SKU ou cluster, considerando custo, concorrência, elasticidade e regras de negócio.
+## Monitor de Competitividade e Price Gap
 
-➡️ **[Acessar projeto](/projects/motor-precificacao/)**
+Projeto em Python para monitorar competitividade de preços (próprio vs concorrência), calcular price gap e classificar risco (alinhado / acima / abaixo / alto risco).
+
+- Repo: https://github.com/ivancaputonunes-hub/monitor-competitividade-price-gap.
+- Stack: Python (Pandas), testes (pytest) e CI (GitHub Actions)
+- Output: CSV e Parquet prontos para BI (Power BI/Looker/Metabase)
 
 ---
 
