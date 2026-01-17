@@ -4,11 +4,9 @@ title: Ivan Caputo — Pricing & Analytics
 permalink: /
 ---
 
-# Ivan Caputo
-
 **Pricing · Analytics · Inteligência de Mercado**
 
-Especialista em decisões comerciais orientadas por dados, com foco em **precificação**, **simulação de cenários** e **otimização de margem** no varejo.
+Especialista em decisões comerciais orientadas por dados, com foco em **precificação**, **simulação de cenários** e **otimização de margem**.
 
 ---
 
