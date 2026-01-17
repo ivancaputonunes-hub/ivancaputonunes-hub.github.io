@@ -22,10 +22,7 @@ Modelo analítico para recomendação de preços por SKU ou cluster, considerand
 
 Projeto em Python para monitorar competitividade de preços (próprio vs concorrência), calcular price gap e classificar risco (alinhado / acima / abaixo / alto risco).
 
-- Repo: https://github.com/ivancaputonunes-hub/monitor-competitividade-price-gap.
-- Stack: Python (Pandas), testes (pytest) e CI (GitHub Actions)
-- Output: CSV e Parquet prontos para BI (Power BI/Looker/Metabase)
-
+XXX
 ---
 
 ### 📊 Monitor de Competitividade e Price Gap  
@@ -33,7 +30,9 @@ Projeto em Python para monitorar competitividade de preços (próprio vs concorr
 
 Sistema de monitoramento contínuo de preços da concorrência para identificação de gaps, dispersões e riscos competitivos.
 
-➡️ **[Acessar projeto](/projects/monitor-competitividade/)**
+- Repo: https://github.com/ivancaputonunes-hub/monitor-competitividade-price-gap.
+- Stack: Python (Pandas), testes (pytest) e CI (GitHub Actions)
+- Output: CSV e Parquet prontos para BI (Power BI/Looker/Metabase)
 
 ---
 
