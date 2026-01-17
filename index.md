@@ -37,7 +37,7 @@ Motor analítico para **recomendação de preços** considerando custo/CMV, marg
 ### 🔹 Monitor de Competitividade e Price Gap
 Sistema de **monitoramento competitivo** para identificação de gaps de preço, dispersões e riscos frente à concorrência.
 
-➡️ Repo link: https://github.com/ivancaputonunes-hub/monitor-competitividade-price-gap.
+➡️ [Repositório no GitHub](https://github.com/ivancaputonunes-hub/monitor-competitividade-price-gap.)
 
 ---
 
