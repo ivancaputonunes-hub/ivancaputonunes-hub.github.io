@@ -18,7 +18,7 @@ Portfólio de projetos em **Pricing, Analytics e Inteligência de Mercado**, com
 
 Sistema de monitoramento contínuo de preços da concorrência para identificação de gaps, dispersões e riscos competitivos.
 
-- Repo: [Ver o projeto](https://github.com/ivancaputonunes-hub/monitor-competitividade-price-gap-py)
+- Repo: [Ver o projeto](https://ivancaputonunes-hub.github.io/monitor-competitividade-price-gap-py/)
 - Stack: Python (Pandas), testes (pytest) e CI (GitHub Actions)
 - Output: CSV e Parquet prontos para BI (Power BI/Looker/Metabase)
 
