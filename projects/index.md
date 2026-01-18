@@ -52,4 +52,10 @@ Juntos, formam uma **base analítica completa para decisões comerciais orientad
 
 ---
 
-⬅️ [Voltar para a Home](/)
+⬅️ [Voltar para meu perfil no GitHub](https://github.com/ivancaputonunes-hub)
+
+
+
+
+
+
