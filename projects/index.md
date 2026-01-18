@@ -24,7 +24,7 @@ Sistema de monitoramento contínuo de preços da concorrência para identificaç
 
 ---
 
-### 🧠 Motor de Precificação Dinâmica para Varejo  
+### 🧠 (WIP) Motor de Precificação Dinâmica para Varejo  
 **Pricing Analytics · Simulação de Cenários · Margem**
 
 Modelo analítico para recomendação de preços por SKU ou cluster, considerando custo, concorrência, elasticidade e regras de negócio.
@@ -32,12 +32,11 @@ Modelo analítico para recomendação de preços por SKU ou cluster, considerand
 
 ---
 
-### 📈 Simulador de Estratégia Comercial  
+### 📈 (WIP) Simulador de Estratégia Comercial  
 **Preço × Volume × Margem · Estratégia Comercial**
 
 Ferramenta de simulação para avaliação de trade-offs econômicos entre preço, volume, receita e margem antes da tomada de decisão.
 
-➡️ **[Acessar projeto](/projects/simulador-estrategia-comercial/)**
 
 ---
 
