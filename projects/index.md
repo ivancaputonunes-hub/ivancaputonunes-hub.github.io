@@ -44,8 +44,8 @@ Ferramenta de simulação para avaliação de trade-offs econômicos entre preç
 
 Os projetos foram pensados como **blocos complementares**:
 
-- O **Motor de Precificação** recomenda preços ótimos  
 - O **Monitor de Competitividade** garante alinhamento ao mercado  
+- O **Motor de Precificação** recomenda preços ótimos  
 - O **Simulador Comercial** avalia impactos estratégicos antes da execução  
 
 Juntos, formam uma **base analítica completa para decisões comerciais orientadas por dados**.
